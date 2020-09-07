@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <section className="about">
-        <h3>Why?</h3>
+        <h3>About</h3>
         <Divider variant="inlet" />
         <br />
         <p>

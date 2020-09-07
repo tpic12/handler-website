@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Logo from "../Assets/handler_logo.png";
 import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
