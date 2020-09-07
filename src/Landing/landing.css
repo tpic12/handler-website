@@ -1,0 +1,83 @@
+.about-box {
+  width: 90%;
+  border: 1px solid #D99923;
+  border-radius: 8px;
+  margin: 10px auto;
+  background-color: #f2d7b6;
+}
+
+.add-bot-div {
+  border: 1px black solid;
+  width: 75%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-bot-link {
+  font-size: 20px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 90vh; */
+}
+
+.landing-description {
+  padding: 20px 0 50px 0;
+}
+
+.landing-description h1 {
+  /* color: #d99923; */
+  color: black;
+  font-weight: normal;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  font-family: 'EB Garamond', serif;
+  font-size: 38px;
+  ;
+}
+
+.landing-description h2 {
+  font-weight: lighter;
+}
+
+.landing-description p {
+  margin: 20px 15px;
+}
+
+.logo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  /* border: 2px solid #bf9b7a; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 720px) {
+  .landing {
+    justify-content: space-evenly;
+  }
+
+  .landing-description h1 {
+    font-size: 55px;
+  }
+
+  .landing-description h2 {
+    font-size: 32px;
+  }
+
+  .landing-description p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .landing {
+    margin: 5% 15%;
+  }
+}

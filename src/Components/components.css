@@ -1,0 +1,45 @@
+.example-div img {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.example-div p {
+  text-decoration: underline;
+}
+
+.italics {
+  font-style: italic;
+  color: #D99923;
+}
+
+@media screen and (min-width: 720px) {
+  .example-p {
+    font-size: 20px;
+  }
+
+  .example-div .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .example-div img {
+    width: 75%;
+    max-width: 750px;
+  }
+
+  code {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .example-div:not(.hunt) {
+    display: flex;
+  }
+
+  .hunt img {
+    max-width: 500px;
+  }
+}

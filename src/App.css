@@ -1,38 +1,36 @@
-.App {
+*:not(code) {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+}
+
+.tabs {
+  padding: 20px 0 0 0;
+}
+
+.tab-list {
+  border-bottom: 1px solid #d99923;
+  padding-left: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tab-list-active {
+  background-color: white;
+  border: solid #d99923;
+  border-width: 2px 2px 0 2px;
+  border-radius: 8px 8px 0 0;
+  background-color: #f2d7b6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tab-content {
+  background-color: #f2d7b6;
+  height: 94vh;
+  padding: 5px;
 }

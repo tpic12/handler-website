@@ -1,0 +1,17 @@
+.about {
+  height: 100vh;
+}
+
+@media screen and (min-width: 720px) {
+  .about {
+    margin: 5% 15%
+  }
+
+  .about h3 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+}

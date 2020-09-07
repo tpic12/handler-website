@@ -1,0 +1,9 @@
+.cmnds-section {
+  padding: 10px 5px;
+}
+
+@media screen and (min-width: 720px) {
+  .cmnds-section {
+    margin: 5% 15%
+  }
+}
