@@ -1,6 +1,6 @@
 import React from "react";
-import Hazak from "../Assets/blackveilExample.png";
-import Brachy from "../Assets/ragingExample.png";
+import Beo from "../Assets/beoExample.png";
+import Rathalos from "../Assets/rathalosExample.png";
 import "./components.css";
 
 export default function Monster() {
@@ -11,17 +11,24 @@ export default function Monster() {
         not case sensative but does need the entire name of the monster. Also
         puncuation is necessary, ie:{" "}
         <span className="italics">tobi-kadachi</span> or{" "}
-        <span className="italics">safi'jiiva</span>
+        <span className="italics">safi'jiiva</span>. The threat level of each
+        monster is located next to their name, and the locales that they appear
+        in are for the guiding lands, if they do not appear in the guiding lands
+        then their respective expedition areas will be used.
       </p>
       <br />
       <div className="example-div">
         <div className="example">
-          <code>*monster blackveil vaal hazak</code>
-          <img src={Hazak} alt="screenshot of Handler response" width="100%" />
+          <code>*monster beotodus</code>
+          <img src={Beo} alt="screenshot of Handler response" width="100%" />
         </div>
         <div className="example">
-          <code>*monster raging brachydios</code>
-          <img src={Brachy} alt="screenshot of Handler response" width="100%" />
+          <code>*monster rathalos</code>
+          <img
+            src={Rathalos}
+            alt="screenshot of Handler response"
+            width="100%"
+          />
         </div>
       </div>
     </>
